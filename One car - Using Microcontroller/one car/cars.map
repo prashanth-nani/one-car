@@ -1,0 +1,26 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+a                                                                 0x028B      64
+counter                                                           0x02CB       2
+score                                                             0x02CD       2
+speed                                                             0x02CF       2
+c                                                                 0x02D1      10
+_seed                                                             0x02DB       4
+_base_y                                                           0x02DF       4
+_lcd_x                                                            0x02E3       1
+_lcd_y                                                            0x02E4       1
+_lcd_maxx                                                         0x02E5       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+s                                                                 R4,R5        2
+y                                                                 R6,R7        2
+i                                                                 R8,R9        2
+j                                                                 R10,R11      2
+z                                                                 R12,R13      2
